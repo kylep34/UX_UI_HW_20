@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title KP Portfolio></title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="CSS copy 3/index.css">
+    </head>
+    <body>
+        
+        <header class ='navigation'> <!--Creates the nav bar class-->
+            <div> <!--Creates the logo class and adds logo image-->
+                <img src="../UX_UI_HW_18/Images copy/LOGO@2x.png" class='logo' alt="...">
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li class ='inline-block' id='nav1'>About</li>
+                <li class ='inline-block' id='nav2'>Work</li>
+                <li class ='inline-block'>Contact</li>
+                <li class ='inline-block'>Resume</li>
+                <div class ='line'></div>
+                <div class ='selectorLine'></div>
+            </ul>
+            
+        </nav>
+        
+        <section class ='heroImg'>
+            <div>
+                <h1>Kyle Petersen</h1>
+                <img src="../UX_UI_HW_17/Images/Stars_placeholder.jpg" class='content' alt="...">
+                <h2>Let's design the Future, Together.</h2>
+                <button id ='resumebutton' type="button" data-toggle="modal" data-target="#exampleModal">Download Resume</button>
+                
+            </div>
+        </section>
+
+        <section class ='myskills'>
+            <div id = 'skillBox'>
+                <h1 class='skillsIntro'>I have a very particular set of</h1>
+                <h4>skills</h4>
+                <h5>UX</h5>
+            </div>
+            <div class ='flexContainer'>
+                <div class='uxSkills'>A strong background with several UX & Ui skills inlcuding:</div>
+                <ul class='skillsList'>
+                    <div>
+                        <li class='uxSkills'>User Experience and Interface design process</li>
+                    </div>
+                    <div>
+                        <li class='uxSkills'>User research skills</li>
+                    </div>
+                    <div>
+                        <li class='uxSkills'>Ability to snythesize research and interview information into several different forms </li>
+                    </div>
+                    <div>
+                        <li class='uxSkills'>Digital prototyping for Mobile and Web based platforms</li>
+                    </div>
+                    <div>
+                        <li class='uxSkills'>Working knowledge of HTML, CSS and Javascript </li>
+                    </div>
+                    <div>
+                        <li class='uxSkills'>High level knowledge of several industry standard tools including:</li>
+                    </div>
+                    <ul class ='skillsList'>
+                        <div> <li class='uxSkills'>Miro</li> </div>
+                        <div> <li class='uxSkills'>Figma</li> </div>
+                        <div> <li class='uxSkills'>Invision</li> </div>
+                        <div> <li class='uxSkills'>AdobeXD</li> </div>
+                        <div> <li class='uxSkills'>Figma</li> </div>
+                        <div> <li class='uxSkills'>Photoshop</li> </div>        
+                        <div><li class='uxSkills'>Zeplin</li></div>
+                    </ul>
+                </ul>
+            </div>
+        </section>
+
+        <section class='myWork'>
+            <h1 class='caseStudies'>Case Studies</h1>
+            <div class='workbox'></div>
+            <div class ='underline'></div>
+            <div class='workGrid'>
+                <div class='caseStudy'>
+                    <!--<div class ='cs1Box'>-->
+                        <img class ='cs1' src="../UX_UI_HW_18/Images copy/StreamVu.png" alt='..'>
+                        <pre class ='txt1'>
+                            Case Study 1: StreamVu
+
+                            Timeline: 3 weeks
+
+                            StreamVu was based on an idea to create a library for streaming
+                            services and programs to help users determine where to 
+                            find certain movies or tv series. The project was completed by a
+                            three-person design team in a classroom setting.
+                        </pre>
+                    </div>
+                   <div id='caseStudy2'>
+                        <img class ='cs2' src="../UX_UI_HW_18/Images copy/NSA.png" alt="..">
+                        <pre>
+                            Case Study 2: NSA Redesign 
+
+                            Timeline: 5 weeks 
+
+                            This project featured a simple redesign of the NSA’s cumbersome
+                            web navigation. The result was a hi-fidelity mobile and web 
+                            prototype, with a functioning navbar interface. This project was
+                            completed by a group of just two designers in a classroom setting.
+                        </pre>
+                    </div>
+                    <div id='caseStudy3'>
+                        <img class ='cs3' src='../UX_UI_HW_18/Images copy/Wheelchairs4Kids.png' alt=',,'>
+                        <pre>
+                            Case Study 3: Wheelchairs4Kids
+
+                            Timeline: 2 weeks 
+
+                            A redesign of a local non-profit organizations website, focusing on 
+                            increased usability and function. The result of this project was a
+                            hi-fidelity semi-workable prototype designed to take users through
+                            the most crucial user paths. This project was completed by a
+                            three-person design team in a classroom setting. 
+                        </pre>
+                    </div>
+                
+        </section>
+
+  
+  <!-- Vertically centered scrollable modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <embed src="../UX_UI_HW_20/Files/KPetersen Resume HW 16 .docx.pdf" height="1000px" width='1100px'>    
+                
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src = 'js copy/index.js'></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</html>
